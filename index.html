@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE LOGIN FORM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2 class="title">Contact us</h2>
+        </div>
+        <div class="login-details">
+            <form action='submit' method='post'>
+
+                <div class="listsname-details">
+                    <div class="name-details" style="font-size: larger;">   
+                        <label for=''>First name <sup>*</sup></label>
+                        <input type='text' id='firstname' name='firstname' >
+                    </div>
+
+                    <div class="lastname-details" style="font-size: larger;">
+                        <label for=''>Last name <sup>*</sup></label>
+                        <input type='text' id='lastname' name='lastname'>
+                    </div>
+                    <br>
+                </div>
+                
+                <div class="email-details" style="font-size: larger;">
+                    <label for=''>Email Address<sup>*</sup></label>
+                    <input type='text' id='email' name='email'>
+                </div>
+                <br>
+                    <div>   
+                        <span>Query Type<sup>*</sup></span>
+                    </div>
+                    <br>
+
+                <div class="radioBox" >
+                    <div class="radio">
+                        <input type="radio" name="choice">
+                        <span>Quality Enquiry</span>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="choice">
+                        <span>Support Request</span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="message-list" style="width: max-content;">
+                <label for=''>Message<sup>*</sup></label>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+                </div>
+                <br>
+
+                <div>
+                    <label for="subscribe">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        I give my consent to be contacted by the team
+                    </label>
+                </div>
+                <br>
+
+                <button type='submit' class="submit-details">Submit</button>
+                
+            </form>
+        </div>
+    </div>   
+</body>
+</html>
