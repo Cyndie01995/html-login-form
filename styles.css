@@ -29,7 +29,7 @@ body {
 }
 .listsname-details{
     width: 100%;
-    gap: 10px;
+    gap: 20px;
     display: flex;
 }
 
@@ -81,7 +81,7 @@ input:focus{
     display: flex;
     align-items: center;
     width: 100%;
-    gap: 10px;
+    gap: 20px;
 }
 .radio{
     border: 1px solid grey;
